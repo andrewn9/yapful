@@ -10,6 +10,7 @@ h6
     color: $text-color;
 	font-family: $primary-font;
 	line-height: $heading-line-height;
+    word-break: normal;
 }
 
 p  { font-size: small;}
@@ -29,7 +30,7 @@ a {
 	}
 }
 
-.read-more {
+.action {
 	font-size: small;
 	font-weight: 500;
 }

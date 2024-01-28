@@ -1,0 +1,15 @@
+<div class="post">
+    <div class="header">
+        <h1>all posts</h1>
+    </div>
+    <div class="main">
+        <ul>
+            {%- for post in site.posts -%}
+            <li>
+                <span>{{ post.date | date: "%F" }}</span>
+                <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</div>

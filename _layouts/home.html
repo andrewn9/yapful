@@ -2,8 +2,17 @@
 layout: default
 ---
 
-{%- include topbar.html -%}
-<section class="content-grid">
-    {%- include sidebar.html -%}
+<section class="content-grid" id="home">
+    <nav class="sidebar">
+        <div class="post">
+            <div class="header">
+                <h1 id="header">welcome!</h1>
+            </div>
+            <div class="main">
+                <p>this site contains a bunch of my projects and devlogs, yapyapyap.</p>
+            </div>
+        </div>
+        {%- include postlist.html -%}
+    </nav>
     {%- include stream.html -%}
 </section>

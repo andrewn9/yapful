@@ -1,8 +1,25 @@
+---
+layout: default
+nav_items:
+  - name: Home
+    link: index.html
+    emphasize: true
+  - name: About
+    link: about.html
+  - name: Posts
+    link: posts.html
+  - name: Projects
+    link: projects.html
+  - name: More
+    link: more.html
+---
+
 <!DOCTYPE html>
 <html lang="en">
     {%- include head.html -%}
 <body>
    <div class="content-wrapper">
+        {%- include topbar.html -%}
         {{ content }}
     </div>
     {%- include footer.html -%}

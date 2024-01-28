@@ -1,9 +1,13 @@
 <nav class="topbar">
-    <ul>
-      <li><a href="#" id="emphasize">andrew ng</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">posts</a></li>
-      <li><a href="#">projects</a></li>
-      <li><a href="#">more</a></li>
-    </ul>
+  <ul>
+      {% assign nav_items = layout.nav_items %}
+      {% for item in nav_items %}
+          {% assign link = '/' | append: item.link %}
+          <li>
+              <a href="{{ link }}" {% if item.emphasize %}id="emphasize"{% endif %}>
+                  {{ item.name }}
+              </a>
+          </li>
+      {% endfor %}
+  </ul>
 </nav>

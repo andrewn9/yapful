@@ -2,4 +2,21 @@
 layout: default
 ---
 
-{{ content }}
+<section class="content-grid" id="article">
+    {%- include goback.html -%}
+    <div class="stream">
+        <div class="post">
+            <div class="header"><h3>{{ page.title }}</h3></div>
+            <div class="main">
+                {{content}}    
+            </div>
+            <div class="footer">
+                {% if page.date %}
+                    <small>published on {{ page.date | date: "%F" }}</small>
+                {% endif %}
+                <button onclick="copyURL()" style="float:right; font-weight: bolder;">↩</button>
+                <button onclick="toggleReadMore()" id="readMoreButton" style="float:right; font-weight: bolder; display:none;">Read more</button>
+            </div>
+        </div>
+    </div>
+</section>
