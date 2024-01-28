@@ -1,0 +1,26 @@
+<nav class="sidebar">
+    <div class="post">
+        <div class="header">
+            <h1 id="header">welcome!</h1>
+        </div>
+        <div class="main">
+            <p>this site contains a bunch of my projects and devlogs, yapyapyap.</p>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="header">
+            <h1>all posts</h1>
+        </div>
+        <div class="main">
+            <ul>
+                {%- for post in site.posts -%}
+                <li>
+                    <span>{{ post.date | date: "%F" }}</span>
+                    <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+</nav>

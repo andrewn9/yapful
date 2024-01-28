@@ -3,18 +3,19 @@
 $base-font-size: 16px;
 $small-font-size: 14px;
 $large-font-size: 18px;
-$regular-font-weight: 400;
-$bold-font-weight: 700;
 $base-line-height: 1.5;
 $heading-line-height: 1.2;
-$text-color: #363636;
-$page-bg-color:#f8f8f8;
-$box-color: #ffffff;
-$sub-color: #9f9f9f;
-$accent-color: #1ba4d2;
-
+$text-color: #555555;
+$outline-color: #EEEEEE;
+$shadow-color: #fdfdfd;
+$page-bg-color:#F5F5F5;
+$box-color: #FFFFFF;
+$sub-color: #e6e6e6;
+$accent-color: #B85B6D;
 $primary-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$base-border: 2px solid $outline-color;
 
 @import
-  "base"
+  "base",
+  "typeface"
 ;

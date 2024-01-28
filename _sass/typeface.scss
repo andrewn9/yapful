@@ -1,0 +1,44 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+	text-transform: lowercase;
+    color: $text-color;
+	font-family: $primary-font;
+	line-height: $heading-line-height;
+}
+
+p  { font-size: small;}
+h1 { font-size: x-large;}
+h2 { font-size: large;}
+h3 { font-size: medium;}
+h4 { font-size: small;}
+h5 { font-size: x-small;}
+h6 { font-size: xx-small;}
+
+a {
+	color: $accent-color;
+	text-decoration: 1px dotted underline;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.read-more {
+	font-size: small;
+	font-weight: 500;
+}
+
+#header {
+    color: $accent-color;
+    font-size: x-large;
+}
+
+#emphasize {
+    color: $accent-color;
+}
