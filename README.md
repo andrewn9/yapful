@@ -1,3 +1,5 @@
+![Image 1](https://github.com/andrewn9/yapful/assets/79771471/598cc760-f0ad-4295-8968-77c6bde45b83) ![Image 2](https://github.com/andrewn9/yapful/assets/79771471/a5dcb041-6c58-4b08-b100-1d561705b0e6)
+
 # yapful
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
