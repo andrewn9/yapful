@@ -1,4 +1,6 @@
-![Image 1](https://github.com/andrewn9/yapful/assets/79771471/598cc760-f0ad-4295-8968-77c6bde45b83) ![Image 2](https://github.com/andrewn9/yapful/assets/79771471/a5dcb041-6c58-4b08-b100-1d561705b0e6)
+<img width="49%" src="https://github.com/andrewn9/yapful/assets/79771471/598cc760-f0ad-4295-8968-77c6bde45b83">
+<img width="49%" src="https://github.com/andrewn9/yapful/assets/79771471/a5dcb041-6c58-4b08-b100-1d561705b0e6">
+
 
 # yapful
 
